@@ -1,0 +1,43 @@
+/* .mainform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+label{
+    font-size: 16px;
+}
+td{
+    padding: 10px;
+    text-align:left;
+}
+input{
+    width: 250px;
+    height: 25px;
+}
+.err-span{
+    color: red;
+}
+
+.submit-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 200px;
+    background-color: rgb(165, 21, 165);
+    color: white;
+}
+tr{
+    padding: 20px;
+}

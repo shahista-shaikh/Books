@@ -1,0 +1,21 @@
+.student-table {
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 80%;
+    margin-top: 20px;
+  }
+  caption{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    background-color: rgb(82, 151, 82);
+  }
+  .student-tr:nth-child(odd)
+   {background-color: #c9c9c9;}
+  
